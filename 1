@@ -1,1 +1,374 @@
-fefe
+'atg' + 'gtacgtccgt'
+'atg' *3
+'atg' in 'atggccggcgta'
+'n' in 'atgttggt'
+codon = 'atg'
+dna_sequence= 'gtcgcctaaccgtatattttcccgt'
+a=4
+b=a
+b
+a=4
+b=a
+b=b+3
+b
+#valid names example: name, _str, DNA, sequencel (only consist letter, number (not first letter))
+#invalid names example: 1string, name#, year@20
+# [x] indexing: gives the character at positipn x in a string
+# [x:y] slicing: gives a substring between positions x and y in a string
+dna= 'gatcccccgatattatttgc'
+dna[0]
+dna= 'gatcccccgatattatttgc'
+dna[-1]
+dna= 'gatcccccgatattatttgc'
+dna[-2]
+dna= 'gatcccccgatattatttgc'
+dna[0:3]
+'dna' +1+2+3
+dna= 'gatcccccgatattatttgc'
+dna[:3]
+dna= 'gatcccccgatattatttgc'
+dna[2:]
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+len(dna) #kaç tane harf olduğunu söylüyor
+dna= 'aagtccgcgcgctttttaaggagccttttgacggc'
+dna.count('c')
+dna= 'aagtccgcgcgctttttaaggagccttttgacggc'
+dna.count('gc')
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.upper()
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.find('ag') # ag nin dna'daki yerini buluyor
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.find('ag',17) # 17 den sonra ag yi ara diyoruz
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.rfind('ag') 
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.islower() # dna daki karakterler küçük harf mi
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.isupper() # dna daki karakterler büyük harf mi
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+dna.replace('a','A') # dna'daki a'ların yerlerini A ile değiştir
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+no_c=dna.count('c')
+no_g=dna.count('g')
+dna_length=len(dna)
+gc_percent=(no_c+no_g)*100.0/dna_length
+print(gc_percent)
+my_number=input('Please enter a number')
+type(my_number)
+int(x[,base]) #convert x to an integer
+float(x) #converts x to a floating-point (real) number
+complex(real[,imag]) #creates a complex number
+str(x) #converts x to a string
+chr(x) #converts an integer to a character
+chr(65)
+str(65)
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+no_c=dna.count('c')
+no_g=dna.count('g')
+dna_length=len(dna)
+gc_percent=(no_c+no_g)*100.0/dna_length
+print('The DNA sequences GC content is',gc_percent,'%')
+
+dna= 'acgctcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+no_c=dna.count('c')
+no_g=dna.count('g')
+dna_length=len(dna)
+gc_percent=(no_c+no_g)*100.0/dna_length
+print('The DNA sequences GC content is %5.3f %%'% gc_percent)
+%5.3f % bir formatın takip ettiğini gösterir
+      5 toplam basamak sayısı (digits)
+      3 noktadan sonra devam eden basamak sayısı (following dot)
+      f türünü gösteriyor
+print('%d'%10.6)
+print('%3d'%10.6)
+print('%o'%10)
+print('%e'%10.6) # 10 üzeri kaç
+print('%s'%dna)
+
+17/2
+gene_expression= ['gene',5.16e-08,0.0000138511,7.33e-08]
+print(gene_expression[3])
+gene_expression[0]='Lif'
+print(gene_expression)
+gene_expression[-3:]
+gene_expression[:]
+gene_expression[1:3]
+gene_expression+[5.16e-08, 0.000138511]
+len(gene_expression)
+#del gene_expression[1]
+#print(gene_expression)
+gene_expression.extend([5.16e-08, 0.000138511])
+gene_expression
+print(gene_expression.count('Lif'), gene_expression.count('gene'))
+gene_expression.reverse()
+gene_expression
+stack=['a','b','c','d']
+stack.append('e') #add
+elem=stack.pop() #delete item
+elem
+mylist=[3,31,123,1,5]
+sorted(mylist)
+mylist=[3,31,123,1,5]
+mylist.sort()
+mylist
+mylist=['c','g','T','a','A']
+print(sorted(mylist))
+t=1,2,3
+t
+t=(1,2,3)
+t
+brca1={'Dna repair','zinc ion binding', 'Dna binding','ubiquitin-protein transferase activity','DNA repair','protein ubiquitination'}
+brca1
+brca2={'protein binding','H4 histone acetyltransferase activty','nucleoplasm','DNA repair','doubles-strand break repair','double-strand break repair via homologous recombination'}
+brca2
+brca1 & brca2 #intersection , kesişim
+brca1 - brca2
+TF_motif={'SP1':'gggcgg','C/EBP':'attgcgcaat','ATF':'tgacgtca','c-Myc':'cacgtg','Oct-1':'atgcaaat'}
+print('The recognition sequence for the ATF transcription is %s.' % TF_motif['ATF'])
+print('The recognition sequence for the  c-Myc disease is %s' % TF_motif['c-Myc'])
+# mesela dictionary de NF-1 geni varmı ona bakmak için
+'NF-1' in TF_motif
+TF_motif['AP-1']='tgagtca' # ekleme
+TF_motif
+TF_motif['AP-1']='tga(g/c)tca'
+TF_motif
+del TF_motif['SP1']
+TF_motif
+TF_motif.update({'SP1':'gggcgg','C/EBP':'attgcgcaat','Oct-1':'atgcaaa'})
+TF_motif
+len(TF_motif)
+list(TF_motif.keys())
+
+list(TF_motif.values())
+sorted(TF_motif.keys())
+sorted(TF_motif.values())
+ad=['GT-AG','GC-AG','AT-AC']
+ad[:-1]
+ad=['GT-AG','GC-AG','AT-AC']
+ad[-1]
+90
+['GT-AG','GC-AG','AT-AC']
+
+l append
+error
+c
+del dna_counts['a'] 
+dna_counts=
+{'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
+
+max_freq=sorted(dna_counts.keys())[-1]
+all elements comoon between
+2
+dna=input('Enter:')
+dna_counts={'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
+nt=sorted(dna_counts.keys())
+print(nt[-1])
+grades=[70,80.0,90,100]
+(grades[1]+grades[3])/2
+t=('a','c','g','t')
+t.append(('A','B','C','D'))
+print(len(t))
+dna=input('ENTER DNA SEQUENCE')
+if 'n' in dna :
+    nbases=dna.count('n')
+    print('dna sequence has %d undefined bases' % nbases)
+#Boolean Expression
+0<1
+len('atgcgt')>=10
+# == EŞİT
+# != not equal
+# < 
+# >
+# <= az veya eşit
+# >= büyük veya eşit
+
+'GT' != 'AG'
+10+2==12
+motif='gtccc'
+dna='atatattgtcccattt'
+motif in dna
+alphabet=['a','c','g','t']
+newalphabet=alphabet[:]
+alphabet == newalphabet
+alphabet is newalphabet
+dna=input('ENTER DNA SEQUENCE')
+if 'n' in dna :
+    nbases=dna.count('n')
+    print('dna sequence has %d undefined bases' % nbases)
+else:
+    print('dna sequence has no undefined bases')
+dna= input('enter dna sequence')
+if 'n' in dna:
+    print('dna sequence has undefined bases')
+elif 'N' in dna:
+    print('dna sequence has undefined bases')
+else:
+    print('dna sequence has undefined bases')
+ 
+dna= input('enter dna sequence:')
+if 'n' in dna or 'N' in dna:
+    nbases=dna.count('n')+dna.count('N')
+    print('dna sequence has %d undefined bases' % nbases) 
+else:
+    print('there no undefined')
+dna=input('enter dna sequence:')
+pos=dna.find('gt',0)
+
+while pos >=1 :
+    print('donor splice site candidate at position %d'%pos)
+    pos=dna.find('gt',pos+1)
+motifs=['attccgt','agggggtttttcg','gtagc']
+for m in motifs:
+ print(m,len(m))
+motifs=['attccgt','agggggtttttcg','gtagc']
+for a in motifs:
+ print(a,len(a))
+for i in range (4):
+    print(i)
+for i in range (1,10,2): # 1 (start) 10 (stop) 2 (stop)
+    print(i)
+protein='FJWQFQWFNQJWNFJIEWNWAFEFJWNFJN'
+for i in range(len(protein)):
+    if protein[i] not in 'ANDWQNFQKFNQKFQ':
+        print('protein conreins invalid amino acid %s at position %d' %(protein[i],i))
+protein='FJWQFQWFNQJWNFJIEWNWAFEFJWNFJN'
+for i in range(len(protein)):
+    if protein[i] not in 'ANDWQNFQKFNQKFQ':
+        print('this is not valid protein sequence')
+        break
+protein='FJWQFQWFNQJWNFJIEWNWAFEFJWNFJN'
+corrected_protein=''
+for i in range(len(protein)):
+    if protein[i] not in 'ANDWQNFQKFNQKFQ':
+        continue
+    corrected_protein=corrected_protein+protein[i]
+
+print('corrected protein seqeunce is:%s' %corrected_protein)
+N=10
+for y in range(2, N):
+    for x in range(2,y):
+        if y % x == 0:
+            print(y, 'equals', x , '*', y//x)
+            break
+    else:
+        print(y, 'is a prime number')
+        
+
+if motif not in dna:
+    pass
+else:
+    some_fucniton_here(motif,dna)
+if fold >2 : print ('condition A')
+elif fold>100: print('condition B')
+if fold> 2 or fold <2: print ('condition A')
+else: print ('condition B')
+for i in range (1,-23,-3): # 1 (start) 10 (stop) 2 (stop)
+    print(i)
+if x>10 or x<-10: print('big')
+elif x>1000000 : print('very big')
+elif x<-1000000 : print('very big')
+else x>1000000 : print('small')
+
+i = 1
+while i <100:
+     if i%2 ==0: break
+     i += 1
+else:
+    i=1000
+d={}
+result = False
+for x in mylist:
+    if x in d:
+        result= True
+        break
+    d[x] = True
+
+d={}
+result = False
+for x in mylist:
+    if not x in d:
+        d[x] = True
+        continue
+    result = True
+i=1
+while i< 2048 :
+      i=2*i
+def function_name(input arguments):
+    'string documenting the function'
+    function_code_block
+    return output
+def gc(dna):
+    'this function computes the GC percentage of dna sequence'
+    nbases=dna.count('n')+dna.count('N')
+    gcpercent=float(dna.count('c')+dna.count('g')+dna.count('C')+dna.count('G'))*100.0/(len(dna)-nbases)
+    return gcpercent
+gc('AAAGTNNAGTCC')
+def at(DNA):
+    'this function computes the GC percentage of dna sequence'
+    nbases=dna.count('n')+dna.count('N')
+    atpercent=(dna.count('a')+dna.count('A')+dna.count('t')+dna.count('T'))*100/(len(dna)-nbases)
+    return atpercent
+at('AAAGTNNAGTCC')
+
+
+def gc(dna):
+    'this function computes the GC percentage of dna sequence'
+    nbases=dna.count('n')+dna.count('N')
+    gcpercent=float(dna.count('c')+dna.count('g')+dna.count('C')+dna.count('G'))/(len(dna)-nbases)
+    return gcpercent
+gc('AAAGTNNAGTCC')
+#boolean func
+dna=input('Enter a DNA sequence, please:')
+if(has_stop_codon(dna)):
+    print('Input sequence ha an in frame stop codon')
+else:
+    print('Input sequence has no in frame stop codon')
+def has_stop_codon(dna):
+    'This function checks if given dna sequence has in frame stop codons.'
+    stop_codon_found= False
+    stop_codons=['tga','tag','taa']
+    for i in range(0,len(dna),3):
+        codon=dna[i:i+3].lower()
+        if codon in stop_codons:
+           stop_codon_found= True
+           break
+    return stop_codon_found
+def has_stop_codon(dna,frame):
+    'This function checks if given dna sequence has in frame stop codons.'
+    stop_codon_found= False
+    stop_codons=['tga','tag','taa']
+    for i in range(frame,len(dna),3):
+        codon=dna[i:i+3].lower()
+        if codon in stop_codons:
+           stop_codon_found= True
+           break
+    return stop_codon_found
+dna= input('Enter a DNA sequence, please: ')
+
+if(has_stop_codon(dna)):
+    print('Input sequence has in frame stop codon.')
+else:
+    print('input sequcen has no in frame stop codon')
+def has_stop_codon(dna):
+    'this fucniton dna stop codons'
+    stop_codon_found= False
+    stop_codons=['tga','tag','taa']
+    for i in range(0,len(dna),3):
+        codon= dna[i:i+3].lower()
+        if codon in stop_codons:
+            stop_codon_found= True
+            break
+    return stop_codon_found
+def has_stop_codon(dna):
+    'this fucniton dna stop codons'
+    stop_codon_found= False
+    stop_codons=['tga','tag','taa']
+    for i in range(0,len(dna),3):
+        codon= dna[i:i+3].lower()
+        if codon in stop_codons:
+            stop_codon_found= True
+            break
+    return stop_codon_found
+dna='atgagcggccggct'
+has_stop_codon(dna,0)
