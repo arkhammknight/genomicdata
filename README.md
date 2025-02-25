@@ -10,7 +10,7 @@ This tool evaluates the performance of copy number variation (CNV) calling metho
 <p align="center"> <b> False Positive (FP) </b> </p>
 <p align="center"> <img src="./images/2.png" width="400" alt="False Positive CNV Detection"> </p> <p align="center"> If a CNV call detects a CNV that is not in the gold standard dataset or has insufficient overlap (less than 50%), it is considered a <b>False Positive (FP). </b> </p>
 
-<p align="center"> <b> False Negative (FN) </b> </p>
+<p align="center"><b><i style="font-size: 16pt">False Negative (FN)</i></b></p>
 <p align="center"> <img src="./images/3.png" width="400" alt="False Negative CNV Miss"> </p> <p align="center"> If a CNV present in the gold standard dataset is not detected by the calling method, it is considered a <b>False Negative (FN). </b> </p>
 
 ## Usage
