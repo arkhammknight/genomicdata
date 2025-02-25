@@ -1,6 +1,10 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![Unlicense License][license-shield]][license-url]
+[![GitHub issues](https://img.shields.io/github/issues/arkhammknight/retro?color=red)]()
+[![GitHub stars](https://img.shields.io/github/stars/arkhammknight/retro?color=yellow)]()
+[![GitHub forks](https://img.shields.io/github/forks/arkhammknight/retro?color=orange)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/arkhammknight/retro?color=blue)]()
+
 
 
 # SNP Tool Comparison
@@ -43,14 +47,4 @@ To run the tool locally using Nextflow, execute the following command from the p
 nextflow run main.nf
 ```
 
-[contributors-shield]: https://img.shields.io/github/contributors/arkhammknight/genomicdata.svg?style=flat-square
-[contributors-url]: https://github.com/genomicdata/genomicdata/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/genomicdata/snptoolcomparison.svg?style=flat-square
-[forks-url]: https://github.com/genomicdata/genomicdata/network/members
-[stars-shield]: https://img.shields.io/github/stars/genomicdata/snptoolcomparison.svg?style=flat-square
-[stars-url]: https://github.com/genomicdata/genomicdata/stargazers
-[issues-shield]: https://img.shields.io/github/issues/genomicdata/genomicdata.svg?style=flat-square
-[issues-url]: https://github.com/genomicdata/genomicdata/issues
-[license-shield]: https://img.shields.io/github/license/genomicdata/genomicdata.svg?style=flat-square
-[license-url]: https://github.com/genomicdata/genomicdata/blob/main/LICENSE
 
