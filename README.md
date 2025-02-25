@@ -34,6 +34,7 @@ This tool evaluates the performance of copy number variation (CNV) calling metho
 ### Running Locally with Nextflow
 
 [![Nextflow][nextflow-shield]][nextflow-url]
+
 [nextflow-shield]: https://img.shields.io/badge/Nextflow-Powered-blue.svg?logo=nextflow&style=flat-square
 [nextflow-url]: https://www.nextflow.io/
 
