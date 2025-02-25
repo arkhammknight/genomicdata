@@ -1,9 +1,9 @@
 <a id="readme-top"></a>
 
-[![GitHub issues](https://img.shields.io/github/issues/arkhammknight/retro?color=red)]()
-[![GitHub stars](https://img.shields.io/github/stars/arkhammknight/retro?color=yellow)]()
-[![GitHub forks](https://img.shields.io/github/forks/arkhammknight/retro?color=orange)]()
-[![GitHub watchers](https://img.shields.io/github/watchers/arkhammknight/retro?color=blue)]()
+[![GitHub issues](https://img.shields.io/github/issues/arkhammknight/genomicdata?color=red)]()
+[![GitHub stars](https://img.shields.io/github/stars/arkhammknight/genomicdata?color=yellow)]()
+[![GitHub forks](https://img.shields.io/github/forks/arkhammknight/genomicdata?color=orange)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/arkhammknight/genomicdata?color=blue)]()
 
 
 
