@@ -33,7 +33,9 @@ This tool evaluates the performance of copy number variation (CNV) calling metho
 
 ### Running Locally with Nextflow
 
-* [![Nextflow][Nextflow.io]][Nextflow-url]
+[nextflow-shield]: https://img.shields.io/badge/Nextflow-Powered-blue.svg?logo=nextflow&style=flat-square
+[nextflow-url]: https://www.nextflow.io/
+
 To run the tool locally using Nextflow, execute the following command from the project directory:
 ```bash
 nextflow run main.nf
@@ -49,6 +51,4 @@ nextflow run main.nf
 [issues-url]: https://github.com/genomicdata/genomicdata/issues
 [license-shield]: https://img.shields.io/github/license/genomicdata/genomicdata.svg?style=flat-square
 [license-url]: https://github.com/genomicdata/genomicdata/blob/main/LICENSE
-
-[Nextflow-url]: https://www.nextflow.io/
 
