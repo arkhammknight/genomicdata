@@ -6,6 +6,9 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/arkhammknight/genomicdata?color=blue)]()
 
 
+## 🗺️ map 
+
+- [<code> CNV Classification Criteria</code>](#-CNVClassification Criteria)
 
 # SNP Tool Comparison
 
