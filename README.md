@@ -4,7 +4,7 @@ This tool evaluates the performance of copy number variation (CNV) calling metho
 
 ## CNV Classification Criteria
 
-<p align="center"> ### True Positive (TP) </p>
+<p align="center"> **True Positive (TP)** </p>
 <p align="center"> <img src="./images/1.png" width="400" alt="True Positive CNV Overlap"> </p> If a CNV call overlaps with a gold standard CNV by 50% or more, it is considered a **True Positive (TP)**.
 
 ### False Positive (FP)
