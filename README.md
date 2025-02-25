@@ -33,7 +33,8 @@ This tool evaluates the performance of copy number variation (CNV) calling metho
 
 ### Running Locally with Nextflow
 
-[nextflow-shield]: https://img.shields.io/badge/Nextflow-Powered-blue.svg?logo=nextflow&style=flat-square
+* [![Nextflow][nextflow.js]][nextflow-url]
+[nextflow-js]: https://img.shields.io/badge/Nextflow-Powered-blue.svg?logo=nextflow&style=flat-square
 [nextflow-url]: https://www.nextflow.io/
 
 To run the tool locally using Nextflow, execute the following command from the project directory:
